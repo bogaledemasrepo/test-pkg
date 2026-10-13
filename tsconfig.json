@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                          // Modern JS output
+    "module": "NodeNext",                        // Modern module system
+    "moduleResolution": "NodeNext",
+    "declaration": true,                         // Generates .d.ts files (crucial for type autocomplete!)
+    "outDir": "./dist",                          // Where compiled files will go
+    "rootDir": "./src",                          // Where your TS source code lives
+    "strict": true,                              // Enables strict type-checking
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
